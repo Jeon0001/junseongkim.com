@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jun Seong Kim"
-  avatar           : "profile.png" # Stored in /images/
+  avatar           : "pfp.png" # Stored in /images/
   bio              : "Computer Science and Business Technology Management Student at KAIST"
   location         : "Daejeon, South Korea"
   employer         :
