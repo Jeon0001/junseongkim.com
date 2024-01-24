@@ -1,8 +1,8 @@
 ---
 title: "Detection of Stationary Atmospheric Waves in Venus with a Self-Supervised Adversarial Model Using Anomaly Detection"
 collection: publications
-permalink: /publication/anomaly-detection-stationary-waves
-excerpt: 'Proposal for an anomaly detection scheme for identifying stationary waves in Venus' atmosphere using a self-supervised model.'
+permalink: /publication/2015-10-01-paper-title-number-3
+excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2015-10-01
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
