@@ -3,7 +3,7 @@ title: "Detection of Stationary Atmospheric Waves in Venus with a Self-Supervise
 collection: publications
 permalink: /publication/anomaly-detection-stationary-waves
 excerpt: 'Proposal for an anomaly detection scheme for identifying stationary waves in Venus' atmosphere using a self-supervised model.'
-date: 2023-06
+date: 2023-06-01
 venue: 'Conference: 한국정보과학회 Korea Computer Conference'
 paperurl: 'https://scholar.google.com/scholar?oi=bibs&cluster=17754080156825375173&btnI=1&hl=en'
 citation: '//'
