@@ -3,7 +3,7 @@ title: "Detection of Stationary Atmospheric Waves in Venus with a Self-Supervise
 collection: publications
 permalink: /publication/anomaly-detection-stationary-waves
 excerpt: 'Proposal for an anomaly detection scheme for identifying stationary waves in Venus' atmosphere using a self-supervised model.'
-date: 2023-06-01
+date: 2015-10-01
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
