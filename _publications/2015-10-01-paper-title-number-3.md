@@ -5,7 +5,7 @@ permalink: /publication/anomaly-detection-stationary-waves
 excerpt: 'Proposal for an anomaly detection scheme for identifying stationary waves in Venus' atmosphere using a self-supervised model.'
 date: 2023-06-01
 venue: '한국정보과학회 Korea Computer Conference'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11488198'
 citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
 
