@@ -6,7 +6,7 @@ excerpt: 'Approaching the detection of atmospheric waves through an adversariall
 date: 2023-12-01
 venue: 'Korea Software Congress (KSC)'
 paperurl: 'https://jeon0001.github.io/junseongkim.com/files/VenusPaper2.pdf'
-citation: 'Jun Seong Kim, You. (2023). &quot; Detecting Stationary Atmospheric Waves in Venus with a Self-Supervised Adversarial Model Using Anomaly Detection.&quot; <i>Korea Software Congress</i>. 1(1).'
+citation: 'Jun Seong Kim, Husnu Baris Baydargil, Jose Eduardo Silva, Yeon-Joo Lee, Meeyoung Cha. (2023). &quot; Detecting Stationary Atmospheric Waves in Venus with a Self-Supervised Adversarial Model Using Anomaly Detection.&quot; <i>Korea Software Congress</i>. 1(1).'
 ---
 Abstract
 ------
