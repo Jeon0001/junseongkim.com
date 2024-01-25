@@ -2,6 +2,9 @@
 title: "Music Recommendation System"
 excerpt: "Project paper creating a music recommendation system which takes a listeners mood into account."
 collection: portfolio
+date: 2023-11-01
+permalink: /portfolio/music-recommendation-system
+paperurl: 'https://jeon0001.github.io/junseongkim.com/files/MusicRecommendationPaper.pdf'
 ---
 
 Abstract
