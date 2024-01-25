@@ -1,10 +1,10 @@
 ---
 title: "Detection of Stationary Atmospheric Waves in Venus with a Self-Supervised Adversarial Model Using Anomaly Detection"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/anomaly-detection-stationary-waves
 excerpt: 'Proposal for an anomaly detection scheme for identifying stationary waves in Venus atmosphere using a self-supervised model.'
 date: 2023-06-01
-venue: 'Conference - Korea Computer Conference'
+venue: 'Korea Computer Conference (KCC)'
 paperurl: 'https://jeon0001.github.io/junseongkim.com/files/VenusPaper1.pdf'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
