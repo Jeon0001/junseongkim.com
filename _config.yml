@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jun's Page"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Jun Seong Kim"
 description              : &description "personal description"
