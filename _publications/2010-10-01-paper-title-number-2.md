@@ -8,8 +8,9 @@ venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+Abstract
+------
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+In this paper, we propose an anomaly detection scheme for identifying stationary waves in Venus' atmosphere using a self-supervised model. Initially, we stack multiple images of projected maps of Venus to filter out other types of features, highlighting stationary waves. We split each image into 72✕ 72-resolution patches and designated patches with waves as anomalies. In contrast, the rest of the grids are defined as normal data. We create a variational autoencoder-based, adversarially trained anomaly detection model. We train the model using a portion of the normal data and test it with the remaining normal and anomaly data. The results show that the model can differentiate between stationary waves and cloud formations, with an AUC score of 78.37%.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Download paper here](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11488198)
