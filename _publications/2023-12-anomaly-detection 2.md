@@ -2,7 +2,8 @@
 title: "Detecting Stationary Atmospheric Waves in Venus with a Self-Supervised Adversarial Model Using Anomaly Detection"
 collection: publications
 permalink: /publication/anomaly-detection-stationary-waves-2
-excerpt: 'Approaching the detection of atmospheric waves through an adversarially trained self-supervised anomaly detection models.'
+excerpt: 'Approaching the detection of atmospheric waves through an adversarially trained self-supervised anomaly detection models.  
+Awarded Grand Prize for best student paper (최우수상)'
 date: 2023-12-01
 venue: 'Korea Software Congress (KSC)'
 paperurl: 'https://jeon0001.github.io/junseongkim.com/files/VenusPaper2.pdf'
