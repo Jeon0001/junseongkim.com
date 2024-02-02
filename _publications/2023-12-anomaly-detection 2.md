@@ -8,6 +8,10 @@ venue: 'Korea Software Congress (KSC)'
 paperurl: 'https://jeon0001.github.io/junseongkim.com/files/VenusPaper2.pdf'
 citation: 'Jun Seong Kim, Husnu Baris Baydargil, Jose Eduardo Silva, Yeon-Joo Lee, Meeyoung Cha. (2023). &quot; Detecting Stationary Atmospheric Waves in Venus with a Self-Supervised Adversarial Model Using Anomaly Detection.&quot; <i>Korea Software Congress</i>. 1(1).'
 ---
+
+Awarded Grand Prize for best student paper (최우수상)
+------
+
 Abstract
 ------
 
