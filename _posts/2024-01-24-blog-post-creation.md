@@ -1,7 +1,7 @@
 ---
 title: 'Blog Post - Creation'
-date: 2024-01-24
-permalink: /posts/2012/08/blog-post-creation/
+date: 2023-12-24
+permalink: /posts/2023/12/blog-post-creation/
 tags:
   - First
 ---
@@ -9,7 +9,7 @@ tags:
 Test title
 ======
 
-Lorem Ipsum blah blah blah, this is filler blah blah blah, first blog post blah blah.
+Lorem Ipsum. Blogs are cool, but this one's a test.
 
 <!-- Headings are cool
 ======
