@@ -6,6 +6,7 @@
     --card-bg: #2d2d2d;
     --nav-bg: rgba(26, 26, 26, 0.8);
     --border-color: #404040;
+    --link-color: #89CFF0;
 }
 
 [data-theme="light"] {
@@ -16,6 +17,7 @@
     --card-bg: #f5f5f5;
     --nav-bg: rgba(255, 255, 255, 0.8);
     --border-color: #eeeeee;
+    --link-color: #0066cc;
 }
 
 /* ... rest of the file ... */
@@ -32,6 +34,15 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+    color: var(--link-color);
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: var(--accent-color);
 }
 
 .container {
