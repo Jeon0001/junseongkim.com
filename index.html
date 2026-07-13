@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Jun Seong Kim - Computer Scientist and Business Student at KAIST. Interests in Data Science and Ethical Technology.">
+        content="Jun Seong Kim is an M.S. student at KAIST researching culturally aware AI, multimodal evaluation, and reliable AI systems.">
     <title>Jun Seong Kim</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -14,108 +14,147 @@
 <body>
     <nav>
         <div class="container nav-content">
-            <a href="index.html"
-                style="font-weight: 700; font-size: 1.2rem; color: var(--text-color); text-decoration: none;">JSK</a>
+            <a href="index.html" class="brand" aria-label="Jun Seong Kim homepage">JSK</a>
             <div class="nav-links">
                 <a href="index.html" class="active">About</a>
                 <a href="blog.html">Blog</a>
                 <a href="publications.html">Publications</a>
                 <a href="assets/documents/Resume2024Feb.pdf" target="_blank">CV</a>
-                <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme"><i
+                        class="fas fa-moon"></i></button>
             </div>
         </div>
     </nav>
 
     <main class="container">
-        <section class="hero">
-            <img src="assets/images/pfp.png" alt="Jun Seong Kim" class="profile-img">
-            <h1>Jun Seong Kim</h1>
-            <p class="bio-short">M.S. Student / CompSci / Startup Nerd</p>
+        <section class="hero about-hero">
+            <div class="hero-layout">
+                <div class="profile-shell">
+                    <img src="assets/images/linkedin-profile.jpg" alt="Jun Seong Kim" class="profile-img">
+                </div>
 
-            <div class="social-links">
-                <a href="mailto:09jkim@kaist.ac.kr" class="social-icon" title="Email"><i
-                        class="fas fa-envelope"></i></a>
-                <a href="https://github.com/Jeon0001" class="social-icon" target="_blank" title="GitHub"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/jun-seong-kim-702885224/" class="social-icon" target="_blank"
-                    title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://scholar.google.com/citations?user=wnkr0FYAAAAJ&hl=en" class="social-icon"
-                    target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-                <a href="https://www.researchgate.net/profile/Jun-Kim-85" class="social-icon" target="_blank"
-                    title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                <div class="hero-copy">
+                    <h1>Jun Seong Kim</h1>
+                    <p class="bio-short">M.S. Student at KAIST School of Computing</p>
+                    <p class="hero-summary">I study how AI systems behave across cultures and contexts—and build
+                        benchmarks that make their hidden failures easier to see.</p>
+
+                    <div class="hero-actions">
+                        <a href="publications.html" class="btn"><i class="fas fa-book-open"></i> View publications</a>
+                        <a href="mailto:09jkim@kaist.ac.kr" class="btn btn-secondary"><i
+                                class="fas fa-envelope"></i> Get in touch</a>
+                    </div>
+
+                    <div class="social-links hero-socials" aria-label="Social profiles">
+                        <a href="mailto:09jkim@kaist.ac.kr" class="social-icon" title="Email" aria-label="Email"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="https://github.com/Jeon0001" class="social-icon" target="_blank"
+                            rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jun-kim-702885224/" class="social-icon" target="_blank"
+                            rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://scholar.google.com/citations?user=wnkr0FYAAAAJ&amp;hl=en" class="social-icon"
+                            target="_blank" rel="noopener noreferrer" title="Google Scholar"
+                            aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                        <a href="https://www.researchgate.net/profile/Jun-Kim-85" class="social-icon" target="_blank"
+                            rel="noopener noreferrer" title="ResearchGate" aria-label="ResearchGate"><i
+                                class="fab fa-researchgate"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="about">
-            <h2>About</h2>
-            <p>
-                Hello! I am a Master's student at KAIST School of Computing, currently working at <a
-                    href="https://uilab.kr/">U&I Lab</a> advised by Professor Alice Oh.
-            </p>
-            <br>
-            <p>
-                My current research interests focus on AI alignment, model bias, and evaluation of AI systems. I'm
-                particularly interested in how to make AI systems more transparent, and designing datasets and
-                benchmarks that are able to expose hidden model failures.
-            </p>
-            <br>
-            <p>
-                Other than research, I'm currently a founder of a startup called Particall, where I'm working on
-                developing a social platform to make it easier for people to find others to play games with. If you're
-                interested, here's a shameless plug @ <a href="https://particall.net">particall.net</a>!
-            </p>
-            <br>
-            <p>
-                In my free time, I enjoy the usual, playing guitar, reading, and judging coffee at Cafes.
-                If I interest you at all, shoot me an email @ <a
-                    href="mailto:09jkim@kaist.ac.kr">09jkim@kaist.ac.kr</a>!
-            </p>
+        <section id="about" class="about-section">
+            <div class="section-heading">
+                <p class="section-kicker">About me</p>
+                <h2>Building more accountable AI.</h2>
+            </div>
+
+            <div class="about-layout">
+                <div class="about-copy">
+                    <p>I am an M.S. student in Computer Science at KAIST, where I work in the <a
+                            href="https://uilab.kr/" target="_blank" rel="noopener noreferrer">U&amp;I Lab</a> with
+                        Professor Alice Oh. My research focuses on evaluating AI systems—especially multimodal
+                        models—in culturally diverse and real-world settings.</p>
+
+                    <p>I design datasets and benchmarks that surface hidden model failures, measure robustness, and
+                        help make AI systems more transparent and reliable.</p>
+
+                    <p>Outside research, I enjoy turning ideas into products. I am also the founder of <a
+                            href="https://particall.net" target="_blank" rel="noopener noreferrer">Particall</a>, a
+                        social platform designed to help people find others to play games with.</p>
+
+                    <p>When I am away from a screen, you will usually find me playing guitar, reading, or looking for a
+                        better cup of coffee.</p>
+                </div>
+
+                <aside class="focus-card" aria-label="Research interests">
+                    <p class="focus-label">Research interests</p>
+                    <ul class="focus-list">
+                        <li>AI evaluation</li>
+                        <li>Multimodal systems</li>
+                        <li>Cultural AI</li>
+                        <li>Model reliability</li>
+                    </ul>
+                </aside>
+            </div>
         </section>
 
-        <section id="experience">
-            <h2>Past Experiences</h2>
-            <div class="card">
-                <h3>Institute for Basic Science</h3>
-                <span class="card-meta"><i class="fas fa-calendar"></i> Jan 2023 - Jan 2024</span>
-                <p>
-                    Data Science Group & Planetary Atmosphere Group. Focusing on the creation of Anomaly Detection
-                    schemes for cloud features in Venus' atmosphere.
-                </p>
-                <div style="margin-top: 10px;">
-                    <span class="tag">Data Science</span>
-                    <span class="tag">Anomaly Detection</span>
+        <section id="news">
+            <div class="section-heading news-heading">
+                <div>
+                    <p class="section-kicker">What I’m up to</p>
+                    <h2>Latest news</h2>
                 </div>
+                <a href="publications.html" class="section-link">All publications <span aria-hidden="true">→</span></a>
             </div>
 
-            <div class="card">
-                <h3>BSc at KAIST</h3>
-                <span class="card-meta"><i class="fas fa-calendar"></i> Sep 2020 - Feb 2026</span>
-                <p>
-                    Major in Computer Science with a Double Major in Business and Technology Management.
-                </p>
-                <div style="margin-top: 10px;">
-                    <span class="tag">Computer Science</span>
-                    <span class="tag">Business and Technology Management</span>
-                </div>
-            </div>
+            <div class="news-list">
+                <article class="news-item">
+                    <time datetime="2026-07">Jul 2026</time>
+                    <div class="news-copy">
+                        <h3>Heading to ICML 2026</h3>
+                        <p>I will be attending the International Conference on Machine Learning this July.</p>
+                    </div>
+                </article>
 
-            <div class="card">
-                <h3>MSc at KAIST</h3>
-                <span class="card-meta"><i class="fas fa-calendar"></i> Mar 2026 - Present</span>
-                <p>
-                    Major in Computer Science @ <a href="https://uilab.kr/">U&I Lab</a>
-                </p>
-                <div style="margin-top: 10px;">
-                    <span class="tag">Computer Science</span>
-                </div>
-            </div>
+                <article class="news-item">
+                    <time datetime="2026-07">Jul 2026</time>
+                    <div class="news-copy">
+                        <h3>Pluralis v0.1 released</h3>
+                        <p>Our <a href="https://arxiv.org/abs/2607.06196" target="_blank"
+                                rel="noopener noreferrer">multicultural, multimodal, and multilingual benchmark</a> for
+                            AI risk and reliability is now available on arXiv.</p>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <time datetime="2026">2026</time>
+                    <div class="news-copy">
+                        <h3>Published at CVPR 2026</h3>
+                        <p><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Kim_World_in_a_Frame_Understanding_Culture_Mixing_as_a_New_CVPR_2026_paper.html"
+                                target="_blank" rel="noopener noreferrer"><em>World in a Frame</em></a> explores
+                            culture mixing as a new challenge for vision-language models.</p>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <time datetime="2025-05">May 2025</time>
+                    <div class="news-copy">
+                        <h3>Outstanding Paper at C3NLP</h3>
+                        <p><a href="https://aclanthology.org/2025.c3nlp-1.11/" target="_blank"
+                                rel="noopener noreferrer"><em>When Tom Eats Kimchi</em></a> received the <span
+                                aria-hidden="true">🏆</span> <strong>Outstanding Paper</strong> award at C3NLP 2025.</p>
+                    </div>
+                </article>
             </div>
         </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2026 Jun Seong Kim. Last Updated: Jan 16, 2026</p>
+        <p>&copy; 2026 Jun Seong Kim. Last updated: Jul 13, 2026.</p>
     </footer>
 
     <script src="assets/js/script.js"></script>

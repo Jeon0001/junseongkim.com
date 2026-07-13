@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Publications and Research by Jun Seong Kim.">
+    <meta name="description" content="Publications and research by Jun Seong Kim.">
     <title>Publications - Jun Seong Kim</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -20,55 +20,136 @@
                 <a href="blog.html">Blog</a>
                 <a href="publications.html" class="active">Publications</a>
                 <a href="assets/documents/Resume2024Feb.pdf" target="_blank">CV</a>
-                <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme"><i
+                        class="fas fa-moon"></i></button>
             </div>
         </div>
     </nav>
 
     <main class="container">
-        <section class="hero" style="padding: 40px 0 20px;">
+        <section class="hero publications-hero">
             <h1>Publications</h1>
-            <p class="bio-short">Selected research and projects</p>
+            <a href="https://scholar.google.com/citations?user=wnkr0FYAAAAJ&amp;hl=en" target="_blank"
+                rel="noopener noreferrer" class="scholar-profile-link">
+                <i class="fas fa-graduation-cap"></i> Google Scholar profile
+            </a>
         </section>
 
-        <section>
-            <div class="card">
-                <h3>Anomaly Detection in Venus' Atmosphere</h3>
-                <span class="card-meta">VenusPaper1</span>
-                <p>Research focused on anomaly detection schemes for cloud features.</p>
-                <br>
-                <div style="margin-top: 10px;">
-                    <a href="assets/documents/VenusPaper1.pdf" class="btn"><i class="fas fa-file-pdf"></i> Download
-                        PDF</a>
+        <section class="publication-list" aria-label="Publication list">
+            <article class="card publication-card">
+                <div class="publication-heading">
+                    <h3>
+                        <a href="https://arxiv.org/abs/2607.06196" target="_blank" rel="noopener noreferrer">
+                            Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and
+                            Reliability
+                        </a>
+                    </h3>
+                    <span class="publication-year">2026</span>
                 </div>
-            </div>
+                <p class="publication-authors">Alicia Parrish et al. (including <strong>Jun Seong Kim</strong>)</p>
+                <p class="publication-venue">arXiv preprint arXiv:2607.06196</p>
+                <p class="publication-summary">A culture-first AI safety benchmark spanning six Asia-Pacific countries,
+                    eight languages, and multimodal risks that emerge from the interaction of text and images.</p>
+                <div class="publication-actions">
+                    <a href="https://arxiv.org/abs/2607.06196" class="btn" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-arrow-up-right-from-square"></i> Paper
+                    </a>
+                    <a href="https://arxiv.org/pdf/2607.06196" class="btn btn-secondary" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fas fa-file-pdf"></i> PDF
+                    </a>
+                </div>
+            </article>
 
-            <div class="card">
-                <h3>Advanced Atmospheric Analysis</h3>
-                <span class="card-meta">VenusPaper2</span>
-                <p>Further studies and methodologies applied to planetary atmosphere data.</p>
-                <br>
-                <div style="margin-top: 10px;">
-                    <a href="assets/documents/VenusPaper2.pdf" class="btn"><i class="fas fa-file-pdf"></i> Download
-                        PDF</a>
+            <article class="card publication-card">
+                <div class="publication-heading">
+                    <h3>
+                        <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Kim_World_in_a_Frame_Understanding_Culture_Mixing_as_a_New_CVPR_2026_paper.html"
+                            target="_blank" rel="noopener noreferrer">
+                            World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models
+                        </a>
+                    </h3>
+                    <span class="publication-year">2026</span>
                 </div>
-            </div>
+                <p class="publication-authors">Eunsu Kim, Junyeong Park, Na Min An, <strong>Jun Seong Kim</strong>, Hitesh
+                    Laxmichand Patel, Jiho Jin, Julia Kruk, Amit Agarwal, Srikant Panda, Fenal Ashokbhai Ilasariya,
+                    Hyunjung Shim, and Alice Oh</p>
+                <p class="publication-venue">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+                    Recognition (CVPR), pp. 2477–2489</p>
+                <p class="publication-summary">Introduces CultureMix, a 23,000-image benchmark for studying how
+                    vision-language models preserve cultural identities when elements from different cultures appear
+                    together.</p>
+                <div class="publication-actions">
+                    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Kim_World_in_a_Frame_Understanding_Culture_Mixing_as_a_New_CVPR_2026_paper.html"
+                        class="btn" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-arrow-up-right-from-square"></i> Paper
+                    </a>
+                    <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_World_in_a_Frame_Understanding_Culture_Mixing_as_a_New_CVPR_2026_paper.pdf"
+                        class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-file-pdf"></i> PDF
+                    </a>
+                </div>
+            </article>
 
-            <div class="card">
-                <h3>Music Recommendation Systems</h3>
-                <span class="card-meta">MusicRecommendationPaper</span>
-                <p>Exploration of algorithmic approaches to music recommendation.</p>
-                <br>
-                <div style="margin-top: 10px;">
-                    <a href="assets/documents/MusicRecommendationPaper.pdf" class="btn"><i class="fas fa-file-pdf"></i>
-                        Download PDF</a>
+            <article class="card publication-card">
+                <div class="publication-heading">
+                    <h3>
+                        <a href="https://aclanthology.org/2025.c3nlp-1.11/" target="_blank"
+                            rel="noopener noreferrer">
+                            When Tom Eats Kimchi: Evaluating Cultural Awareness of Multimodal Large Language Models in
+                            Cultural Mixture Contexts
+                        </a>
+                    </h3>
+                    <span class="publication-year">2025</span>
                 </div>
-            </div>
+                <p class="publication-authors"><strong>Jun Seong Kim</strong>, Kyaw Ye Thu, Javad Ismayilzada, Junyeong
+                    Park, Eunsu Kim, Huzama Ahmad, Na Min An, James Thorne, and Alice Oh</p>
+                <p class="publication-venue">Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP
+                    (C3NLP), pp. 143–154</p>
+                <span class="publication-award"><span aria-hidden="true">🏆</span> Outstanding Paper</span>
+                <p class="publication-summary">Introduces MIXCUBE to evaluate cultural bias and robustness in
+                    multimodal large language models across mixed-cultural visual contexts.</p>
+                <div class="publication-actions">
+                    <a href="https://aclanthology.org/2025.c3nlp-1.11/" class="btn" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fas fa-arrow-up-right-from-square"></i> Paper
+                    </a>
+                    <a href="https://aclanthology.org/2025.c3nlp-1.11.pdf" class="btn btn-secondary" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fas fa-file-pdf"></i> PDF
+                    </a>
+                </div>
+            </article>
+
+            <article class="card publication-card">
+                <div class="publication-heading">
+                    <h3>
+                        <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11705606" target="_blank"
+                            rel="noopener noreferrer">
+                            Detecting Stationary Atmospheric Waves in Venus with a Self-Supervised Adversarial Model
+                            Using Anomaly Detection
+                        </a>
+                    </h3>
+                    <span class="publication-year">2023</span>
+                </div>
+                <p class="publication-authors"><strong>Jun Seong Kim</strong>, Husnu Baris Baydargil, Jose Eduardo
+                    Silva, Yeon-Joo Lee, and Meeyoung Cha</p>
+                <p class="publication-venue">한국정보과학회 2023 한국소프트웨어종합학술대회 논문집, pp. 1815–1817</p>
+                <span class="publication-award"><span aria-hidden="true">🏆</span> Best Student Paper</span>
+                <p class="publication-summary">Uses self-supervised anomaly-detection models on ultraviolet imager
+                    (UVI) and longwave infrared (LIR) data to detect stationary waves in Venus' atmosphere.</p>
+                <div class="publication-actions">
+                    <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11705606" class="btn"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-arrow-up-right-from-square"></i> Paper
+                    </a>
+                </div>
+            </article>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Jun Seong Kim. Hosted on GitHub Pages.</p>
+        <p>&copy; 2026 Jun Seong Kim. Last updated: Jul 13, 2026.</p>
     </footer>
 
     <script src="assets/js/script.js"></script>
