@@ -227,6 +227,7 @@ h1 {
 .social-icon {
     color: var(--text-color);
     font-size: 1.5rem;
+    text-decoration: none;
     transition: transform 0.2s, color 0.2s;
 }
 
@@ -250,6 +251,12 @@ h1 {
 
 .hero-socials .social-icon:hover {
     border-color: var(--accent-color);
+}
+
+.x-logo {
+    width: 0.9rem;
+    height: 0.9rem;
+    fill: currentColor;
 }
 
 .social-icon:hover {
